@@ -23,6 +23,10 @@
 
 }
 
+.cloud {
+    font-size: 120px;
+}
+
 .animation1 img {
     border-radius: 20px;
     box-shadow: inset 20px white;
@@ -33,7 +37,7 @@
        
     }
     100% {
-        left: 75%;
+        left: 85%;
     }
 }
 
@@ -55,7 +59,7 @@ hr{
     top: 170px;
     width: 150px;
     height: 150px;
-    background-image: url(/tire.png);
+   
     background-position: center;
     background-size: 140%;
     border-radius: 50%;
@@ -70,20 +74,18 @@ hr{
 
 }
 
+.race_car {
+    font-size: 120px;
+}
+
 @keyframes tire {
     0% {
-       transform: rotate(0deg);
+       
     }
-    30% {
-       transform: rotate(-90deg);
-    }
-    
-    60% {
-       transform: rotate(-180deg);
-    }
+   
 
     100% {
-        transform: rotate(-360deg);
+       
         left: 0%;
     }
 }
