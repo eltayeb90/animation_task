@@ -1,0 +1,841 @@
+.container {
+    background-color: rgb(83, 93, 205);
+    width: 100%;
+    height: 2000px;
+    position: relative;
+}
+
+/*animation 1 */
+
+.animation1 {
+    width: 200px;
+    height: 160px;
+   
+    border-radius: 40%;
+    position: absolute;
+    left: 0;
+
+    animation-name: cloud;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+
+}
+
+.animation1 img {
+    border-radius: 20px;
+    box-shadow: inset 20px white;
+}
+
+@keyframes cloud {
+    0% {
+       
+    }
+    100% {
+        left: 75%;
+    }
+}
+
+/* animation 2 */
+
+hr{
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    top: 300px;
+    font-size: 14px;
+    background-color: black;
+}
+
+.animation2 {
+    
+    position: absolute;
+    left: 80%;
+    top: 170px;
+    width: 150px;
+    height: 150px;
+    background-image: url(/tire.png);
+    background-position: center;
+    background-size: 140%;
+    border-radius: 50%;
+
+    animation-name: tire;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+
+
+
+}
+
+@keyframes tire {
+    0% {
+       transform: rotate(0deg);
+    }
+    30% {
+       transform: rotate(-90deg);
+    }
+    
+    60% {
+       transform: rotate(-180deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+        left: 0%;
+    }
+}
+/* animation 3 */
+
+.animation3 {
+    
+    position: absolute;
+    left: 0%;
+    top: 360px;
+    width: 100%;
+}
+
+.no {
+    font-size: 100px;
+    padding: 2.1%;
+    
+}
+
+
+/* num1 no animation */
+.no1 {
+    position: absolute;
+    left: 0;
+   
+    
+}
+
+/* num2 animation */
+.no2 {
+    position: absolute;
+    left: 9%;
+    opacity: 0;
+
+    animation-name: num2;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 5.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes num2 {
+    0% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* num3 animation */
+.no3 {
+    position: absolute;
+    left: 18%;
+    opacity: 0;
+    
+    animation-name: num3;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 6.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes num3 {
+    0% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* num4 animation */
+.no4 {
+    position: absolute;
+    left: 27%;
+    opacity: 0;
+
+    animation-name: num4;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 7.5s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes num4 {
+    0% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* num5 animation */
+
+.no5 {
+    position: absolute;
+    left: 36%;
+    opacity: 0;
+
+    animation-name: num5;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 8.5s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes num5 {
+    0% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* num6 animation */
+.no6 {
+    position: absolute;
+    left: 45%;
+    opacity: 0;
+
+    animation-name: num6;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 9.5s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes num6 {
+
+
+    0% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* num7 animation */
+.no7 {
+    position: absolute;
+    left: 54%;
+    opacity: 0;
+
+    animation-name: num7;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 10.5s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes num7 {
+
+
+    0% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* num8 animation */
+.no8 {
+    position: absolute;
+    left: 63%;
+    opacity: 0;
+
+    
+    animation-name: num8;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 11.5s;
+    animation-fill-mode: forwards;
+    
+    
+}
+
+@keyframes num8 {
+
+
+    0% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* num9 animation */
+.no9 {
+    position: absolute;
+    left: 72%;
+    opacity: 0;
+
+    animation-name: num9;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 12.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes num9 {
+
+
+    0% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* num10 animation */
+.no10 {
+    position: absolute;
+    left: 81%;
+    opacity: 0;
+
+    animation-name: num10;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 13.5s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes num10 {
+
+
+    0% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+p {
+    color: white;
+    font-size: 48px;
+}
+
+/* animation 4 */
+
+.animy {
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    background-color: rgb(190, 6, 6);
+    left: 85%;
+    top: 580px;
+
+
+    animation-name: animy;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 14.5s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes animy {
+
+
+    0% {
+        
+    }
+
+    50% {
+        left: 50%;
+        width: 400px;
+        background-color: blueviolet
+    }
+
+    
+    100% {
+        left: 0;
+        border-radius: 20%;
+        background-color: rgb(43, 226, 73);
+    }
+}
+
+
+
+
+
+
+.animation5 {
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    background-image: url(/star\ background.png);
+    background-size: cover;
+    top: 680px;
+   }
+
+.star {
+    width: 100%;
+}
+.star .man_star {
+    left: 0;
+    font-size: 70px;
+}
+
+.star .star_star {
+    position: absolute;
+    left: 10%;
+    top: 80px;
+    font-size: 20px;
+    z-index: 2;
+
+    animation-name: star;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 16.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes star {
+
+
+    0% {
+        
+    }
+    
+    100% {
+        left: 85%;
+        top: 20px;
+        font-size: 50px;
+    }
+}
+
+
+.star .boy_star {
+    
+    position: absolute;
+    left: 87%;
+    font-size: 70px;
+}
+
+
+/* animation 6 */
+
+.animation6 {
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    background-color: green;
+    background-size: cover;
+    top: 900px;
+}
+
+
+.football .goal_net {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    font-size: 70px;
+}
+
+
+.football .player {
+    position: absolute;
+    left: 90%;
+    font-size: 80px;
+   
+
+    animation-name: football;
+    animation-duration: .5s;
+    animation-timing-function: ease-in;
+    animation-delay: 18.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes football {
+
+
+    0% {
+        
+    }
+    
+    100% {
+       left: 88%;
+    }
+}
+
+.football .ball{
+    position: absolute;
+    top: 100px;
+    left: 87%;
+    font-size: 30px;
+    z-index: 2;
+
+    animation-name: ball;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 19s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes ball {
+
+
+    0% {
+        
+    }
+    
+    100% {
+        left: 2%;
+        top: 60px;
+        font-size: 40px;
+    }
+}
+
+
+.star .boy_star {
+    
+    position: absolute;
+    left: 87%;
+    font-size: 70px;
+}
+
+
+/* Animation 7 */
+
+.animation7 {
+    
+    position: absolute;
+    left: 0%;
+    top: 1100px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(20, 12, 12);
+}
+
+.dot {
+    font-size: 50px;
+    margin: 4.5%;
+    padding: 15px;
+    width: 5px;
+    height: 5px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+
+/* dot1 animation */
+.dot1 {
+    position: absolute;
+    left: 0;
+   
+    animation-name: dott1;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 22s;
+    /* animation-fill-mode: forwards; */
+    
+}
+
+@keyframes dott1{
+
+    0%{
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+/* dot2 animation */
+.dot2 {
+    position: absolute;
+    left: 9%;
+   
+    animation-name: dott2;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 23s;
+    
+    
+}
+
+@keyframes dott2 {
+    0%{
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+
+/* dot3 animation */
+.dot3 {
+    position: absolute;
+    left: 18%;
+    
+    
+    animation-name: dott3;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 24s;
+    
+}
+
+@keyframes dott3 {
+    0%{
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+
+/* dot4 animation */
+.dot4 {
+    position: absolute;
+    left: 27%;
+    
+
+    animation-name: dott4;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 25s;
+   
+    
+}
+
+@keyframes dott4 {
+    0%{
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+
+/* dot5 animation */
+
+.dot5 {
+    position: absolute;
+    left: 36%;
+    
+
+    animation-name: dott5;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 26s;
+   
+    
+}
+
+@keyframes dott5 {
+    0%{
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+/* dot6 animation */
+.dot6 {
+    position: absolute;
+    left: 45%;
+    
+
+    animation-name: dott6;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 27s;
+    
+    
+}
+
+@keyframes dott6 {
+
+
+    0%{
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+/* dot7 animation */
+.dot7 {
+    position: absolute;
+    left: 54%;
+    
+
+    animation-name: dott7;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 28s;
+    
+    
+}
+
+@keyframes dott7 {
+
+    0%{
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+/* dot8 animation */
+.dot8 {
+    position: absolute;
+    left: 63%;
+    
+
+    
+    animation-name: dott8;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 29s;
+  
+    
+    
+}
+
+@keyframes dott8 {
+
+    0%{
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+/* dot9 animation */
+.dot9 {
+    position: absolute;
+    left: 72%;
+    
+
+    animation-name: dott9;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 30s;
+    
+}
+
+@keyframes dott9 {
+
+
+    0%{
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+/* dot10 animation */
+.dot10 {
+    position: absolute;
+    left: 81%;
+    
+
+    animation-name: dott10;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 31s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes dott10 {
+
+
+    0%{
+        background-color: rgb(90, 203, 20);
+    }
+
+    100% {
+        background-color: rgb(90, 203, 20);
+    }
+}
+
+
+/* animation 8 */
+
+.animation8 {
+    position: absolute;
+    top: 1350px;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(20, 47, 2);
+}
+
+.thanks {
+    position: absolute;
+    color: whitesmoke;
+    font-size: 28px;
+    left: 80%;
+
+
+    animation-name: thanks;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 33s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes thanks {
+
+
+    0%{
+        
+    }
+
+    100% {
+        left: 5%;
+    }
+}
